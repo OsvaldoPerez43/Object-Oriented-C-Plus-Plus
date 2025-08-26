@@ -1,3 +1,7 @@
+/***
+ * {Short Description of the Lab}
+ ***/
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;
