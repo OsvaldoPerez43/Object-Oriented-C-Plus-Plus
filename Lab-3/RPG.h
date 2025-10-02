@@ -19,14 +19,14 @@ class RPG{
     void setHitsTaken(int new_hits);
 
     //accesors
-    std::string getName() const;
+    string getName() const;
     int getHitsTaken() const;
     float getLuck() const;
     float getExp() const;
     int getLevel() const;
 
     private:
-        std::string name;
+        string name;
         int hits_taken;
         float luck;
         float exp;
