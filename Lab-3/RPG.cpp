@@ -40,9 +40,21 @@ int RPG::getLevel() const{
     return level;
 }
 
+/*
+* @brief sets hits_taken to new_hits
+*/
+
 void RPG::setHitsTaken(int new_hits){
     hits_taken = new_hits;
 }
+
+/*
+* @brief returns wether hits_taken is less than MAX_HITS_TAKEN
+* In other words, a player is alive as long as they have not been hits MAX_HITS_TAKEN times.
+*
+* @return true: player is alive
+* @return false: player is unalive
+*/
 
 bool RPG::isAlive() const{
     return hits_taken < MAX_HITS_TAKEN;
