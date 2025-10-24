@@ -26,7 +26,7 @@ void Pokemon::printStats(){
     printf("Name:%s\t HP: %i\t DEF: %i\t ATT: %i\n", name.c_str(), hp, defense, attack);
     cout << "Type: ";
     for(int i = 0; i<type.size(); i++){
-        cout << type[i] << "t";
+        cout << type[i] << "\t";
     }
     cout << endl;
 }
