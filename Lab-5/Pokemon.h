@@ -12,11 +12,11 @@ class Pokemon{
         virtual void speak();
         virtual void printStats();
     protected:
-    string name;
-    int hp;
-    int attack;
-    int defense;
-    vector<string> type;
+        string name;
+        int hp;
+        int attack;
+        int defense;
+        vector<string> type;
 };
 
 #endif
