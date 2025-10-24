@@ -12,15 +12,8 @@ using namespace std;
 int main(){
     int x = 0;
     int y = 5;
-    
-    /** isGreatherThan
- * @brief returns whether x is greater than y
- *
- * @param x : (double)
- * @param y : (int)
- * @return true : x is greater than y
- * @return false : x is less than or equal to y
- */
+
+
     while (x <y){
         printf("%i\n",x);
         x = x + 3;

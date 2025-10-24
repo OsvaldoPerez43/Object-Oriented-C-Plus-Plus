@@ -11,8 +11,10 @@ using namespace std;
  */
 void printMemVec(vector <int> x){
     int size_t = size(x);
+    cout <<"Array - Each is worth" <<sizeof(int) << "bytes\n";
     for(int i = 0; i < size_t; i++){
-        cout<<x[i] << "\t" << &x[i] << endl;
+        
+        cout<<"Value:" << x[i] << "\t" << "At Memory Location: " << &x[i] << endl;
     }
 }
 /**
