@@ -24,4 +24,6 @@ int main(){
 
     cout << "\n------- Print Stats -------\n";
     charlie.printStats();
+
+    
 }
