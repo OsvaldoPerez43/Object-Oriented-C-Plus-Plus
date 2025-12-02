@@ -20,8 +20,5 @@ class Charmander : public Pokemon{
         int hp;
         int att;
         int defense;
-
-
 };
-
 #endif

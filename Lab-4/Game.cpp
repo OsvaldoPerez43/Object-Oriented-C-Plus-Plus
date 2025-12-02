@@ -33,6 +33,7 @@ int Game::selectPlayer(){
 
     set<int>::iterator it = live_players.begin();
     advance(it, randomIndex);
+
     int selectedIndex = *it;
     return selectedIndex;
 
@@ -46,6 +47,7 @@ void Game::endRound(RPG *winner, RPG *loser, int loserIndex){
     cout << winner->getName() << " won against " << loser->getName() << endl;
     live_players.erase(loserIndex);
 }
+
 
 void Game::battleRound(){
     int playerIndex1 = selectPlayer();
@@ -76,11 +78,13 @@ if(player1->isAlive()){
 
 //runs battle
 
+/*
 void Game::gameLoop(){
     while(live_players.size()>1){
         battleRound();
     }
 }
+*/
 
 //calls stats
 

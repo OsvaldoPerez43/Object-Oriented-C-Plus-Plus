@@ -19,6 +19,7 @@ Pokemon(name, hp, att, def, t) {
 
 
 
+
 void Charmander::speak(){
     cout << "Charmander-char\n";
 }

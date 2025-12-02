@@ -83,9 +83,10 @@ void RPG::attack(RPG *opponent){
 
     //hit is true id random number is less than hit actor and opponents luck
 
-    bool hit = random_num > (HIT_FACTOR + opponent->getLuck());
+    bool hit = random_num > (HIT_FACTOR * opponent->getLuck());
 
     //if hit is true increase hit taken
+    
     if(hit){
         opponent->setHitsTaken(opponent->getHitsTaken() + 1);
     }
