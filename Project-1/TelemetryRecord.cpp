@@ -61,3 +61,11 @@ void TelemetryRecord::add_row(double new_ts, string new_device, double new_co, d
 int TelemetryRecord::get_size() const{ //Gets the size of the data set so it can be used when needing to iterate through the entire data set
     return ts.size();
 }
+
+void TelemetryRecord::update_temp(int i, double upd_temp){
+    temp[i] = upd_temp;
+}
+
+TelemetryRecord::~TelemetryRecord()
+{
+}
